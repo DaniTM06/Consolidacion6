@@ -29,7 +29,7 @@ def main():
 
     elif option == "Info":
         st.subheader("Info")
-        st.text("MBIT, proyecto de consolidación. Como la pagina de MBIT me rechazaba la conexion, intuyo que por seguridad, pongo la de google para que aparezca algo.")
+        st.text("MBIT, proyecto de consolidación. Como la pagina de MBIT me rechazaba la conexion, intuyo que por seguridad, pongo la de Wikipedia para que aparezca algo.")
         st.components.v1.iframe("https://www.wikipedia.com/")
 
 if __name__ == '__main__':
